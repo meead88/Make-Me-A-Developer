@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <script src="https://kit.fontawesome.com/79eb98cc7e.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css" />
+        <title>M M A D </title>
+    </head>
+    <body>
+
+
+        <header class="main-header">
+            <div class="container">
+            <img class="logo" src="images/copy.jpg" alt="logo-image" width="30%"/>
+               <h1><i id="search" class="fa-solid fa-magnifying-glass"></i></h1>
+               <div class="menu">
+                <a href="#" class="menu-icon" onclick="togglemenu()"><h1><i id="icon"class="fa-solid fa-bars"></i></h1></a>
+            </div> 
+                <!--<form>
+                    <input type="search" value="search" class="search"> -->
+            <!-- </form> -->
+            
+            <nav id="menulist">
+                <a href="courses.html">All Courses</a>
+                <a href="courses.html">Front End Courses</a>
+                <a href="courses.html">Back End Courses</a>
+                <a href="about-us.html">About Us</a>
+                <a href="contact-us.html">Contact Us</a>
+            </nav>
+        </div>
+        </header>
+
+        <section class="landing">
+            <div class="jumb">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+                <a href="register.html" class="joinus-btn">Join Us </a>
+            </div>
+        </section>
+
+        <section class="courses">
+            <h2>Populer Courses</h2>
+            <article class="course">
+                <img src="images/lang.png" width="30%" alt="html image" />
+                <h5>Html Course</h5>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa neque distinctio, harum assumenda, sequi cumque sit omnis nesciunt.</P>
+            </article>
+            <article class="course">
+                <img src="images/lang.png" width="30%" alt="css image" />
+                <h5>css Course</h5>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa neque distinctio, harum assumenda, sequi cumque sit omnis nesciunt.</P>
+            </article><article class="course">
+                <img src="images/lang.png" width="30%" alt="js image" />
+                <h5>JavaScript Course</h5>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa neque distinctio, harum assumenda, sequi cumque sit omnis nesciunt.</P>
+            </article>
+        </section>
+
+
+        <section class="reviews">
+            <h2>Users Comments</h2>
+        <section class="user-comment">
+            <h5>User name</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </section>
+        <section class="user-comment">
+            <h5>User name</h5>
+            <p> ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </section>
+        <section class="user-comment">
+            <h5>User name</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </section>
+        <section class="send-review">
+            <h2>Leave A comment Here </h2>
+            <form>
+                <div class="grouping-form">
+                    <label>Your name </label>
+                    <input type="text" class="name" placeholder="Your Name"/>
+                </div>  
+                <div class="grouping-form">
+                    <label>Your email </label>
+                    <input type="email" class="name" placeholder="Enter Your E-mail" />
+                </div>
+                <div class="grouping">
+                    <label>leave a message </label>
+                    <input type="text" class="message" placeholder="Write Your Review Here"/>
+                </div>
+                <input type="submit" class="send" value="send"/>
+            </form>
+        </section>
+        </section>
+        <footer>
+            <!-- <section>
+                <a href="#home">What Are We ?</a>
+            </section> -->
+            <section class="social">
+                <p>We Are Social</p>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-pinterest"></i>
+            </section>
+            <section class="rights">
+                <p> All Copy Rights &copy; 2022 M M A D </p>
+                <a href="#" >Privacy Policy</a>
+                <a href="#" >FAQ</a>
+                <a href="#" >Legal Terms</a>
+                <span>made with<i class="fas fa-heart"></i></span>
+            </section>
+        </footer>
+         <script>
+             var menulist = document.getElementById("menulist")
+             menulist.style.maxHeight = "0px"
+             function togglemenu(){
+                 if( menulist.style.maxHeight == "0px")
+                 {
+                     menulist.style.maxHeight = "750px";
+                 }
+                 else{
+                    menulist.style.maxHeight = "0px";
+
+                 }
+            }
+         </script>
+    </body>
+</html>
